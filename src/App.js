@@ -2,8 +2,8 @@ import { MainContainer } from "./components/MainContainer";
 
 const Header = () => {
   return (
-    <header className="bg-blue-500 p-4 text-white">
-      <div className="container mx-auto">
+    <header className="bg-purple p-4 text-white">
+      <div className="items-center justify-center">
         <h1 className="text-2xl font-semibold">Header</h1>
       </div>
     </header>

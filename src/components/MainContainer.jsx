@@ -6,6 +6,7 @@ export const MainContainer = () => {
     return (
         <div>
             <h1 className={`${textSize} ${textColor} font-semibold`}>Container</h1>
+
         </div>
 
     )
