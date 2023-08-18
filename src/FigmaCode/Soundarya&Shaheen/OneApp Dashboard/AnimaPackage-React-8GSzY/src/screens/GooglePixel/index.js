@@ -1,0 +1,1 @@
+export { GooglePixel } from "./GooglePixel";
