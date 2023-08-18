@@ -1,0 +1,142 @@
+.box {
+  border: 0px none;
+  height: 80px;
+  width: 570px;
+}
+
+.box .steps-circle-things {
+  height: 80px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 570px;
+}
+
+.box .overlap {
+  height: 80px;
+  position: relative;
+  width: 572px;
+}
+
+.box .circle {
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.box .overlap-group {
+  height: 80px;
+  position: relative;
+  width: 248px;
+}
+
+.box .line {
+  height: 6px;
+  left: 72px;
+  position: absolute;
+  top: 34px;
+  width: 176px;
+}
+
+.box .ellipse {
+  background-color: #00aeef;
+  border-radius: 38.29px/40px;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.box .text-wrapper {
+  color: #ffffff;
+  font-family: var(--circle-text-body-font-family);
+  font-size: var(--circle-text-body-font-size);
+  font-style: var(--circle-text-body-font-style);
+  font-weight: var(--circle-text-body-font-weight);
+  left: 12px;
+  letter-spacing: var(--circle-text-body-letter-spacing);
+  line-height: var(--circle-text-body-line-height);
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 49px;
+}
+
+.box .overlap-wrapper {
+  height: 80px;
+  left: 244px;
+  position: absolute;
+  top: 0;
+  width: 253px;
+}
+
+.box .div {
+  height: 80px;
+  position: relative;
+  width: 251px;
+}
+
+.box .img {
+  height: 5px;
+  left: 73px;
+  position: absolute;
+  top: 36px;
+  width: 178px;
+}
+
+.box .ellipse-2 {
+  background-color: #e7e7e7;
+  border: 6px solid;
+  border-color: #00aeef;
+  border-radius: 38.29px/40px;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.box .text-wrapper-2 {
+  color: #00395d;
+  font-family: var(--circle-text-body-font-family);
+  font-size: var(--circle-text-body-font-size);
+  font-style: var(--circle-text-body-font-style);
+  font-weight: var(--circle-text-body-font-weight);
+  left: 13px;
+  letter-spacing: var(--circle-text-body-letter-spacing);
+  line-height: var(--circle-text-body-line-height);
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 49px;
+}
+
+.box .overlap-group-wrapper {
+  height: 75px;
+  left: 490px;
+  position: absolute;
+  top: 2px;
+  width: 82px;
+}
+
+.box .element-wrapper {
+  background-color: #e7e7e7;
+  border: 6px solid;
+  border-color: #00aeef;
+  border-radius: 40px/37.55px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 75px;
+  position: relative;
+  width: 80px;
+}
+
+.box .element {
+  height: 28px;
+  left: 20px;
+  position: absolute;
+  top: 17px;
+  width: 16px;
+}
