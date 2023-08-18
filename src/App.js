@@ -1,13 +1,35 @@
-import React from 'react';
-import 'daisyui/dist/full.css'; // Import Daisy UI styles
-import './App.css';
+import { MainContainer } from "./components/MainContainer";
 
-function App() {
+const Header = () => {
   return (
-    <div className="p-4">
-      <button className="btn btn-primary">Primary Button</button>
+    <header className="bg-blue-500 p-4 text-white">
+      <div className="container mx-auto">
+        <h1 className="text-2xl font-semibold">Header</h1>
+      </div>
+    </header>
+  );
+};
+
+const Footer = () => {
+  return (
+    <footer className="bg-gray-200 p-4">
+      <div className="container mx-auto">
+        <p className="text-center">© {new Date().getFullYear()} Barclays. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+};
+
+const App = () => {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-1 bg-blue-200 container mx-auto">
+        <MainContainer />
+      </main>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
